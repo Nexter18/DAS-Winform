@@ -1,0 +1,43 @@
+{
+	"users": [{
+		"type": "admin",
+		"userName": "admin"
+	}, {
+		"type": "admin",
+		"userName": "Karens"
+
+	}, {
+		"type": "admin",
+		"userName": "Jose"
+
+	}, {
+		"type": "admin",
+		"userName": "Salvador"
+
+	}, {
+		"type": "regular",
+		"userName": "Edwin"
+
+	}],
+	"passwords": [{
+		"type": "admin",
+		"userPassword": "admin"
+
+	}, {
+		"type": "admin",
+		"userPassword": "DAS"
+
+	}, {
+		"type": "admin",
+		"userPassword": "Electro67"
+
+	}, {
+		"type": "admin",
+		"userPassword": "contraseña$$56"
+
+	}, {
+		"type": "regular",
+		"userPassword": "nexterus"
+
+	}]
+}

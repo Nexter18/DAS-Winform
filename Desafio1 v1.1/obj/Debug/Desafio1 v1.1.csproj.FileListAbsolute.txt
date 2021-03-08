@@ -1,0 +1,18 @@
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\bin\Debug\Desafio1 v1.1.exe.config
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\bin\Debug\Desafio1 v1.1.exe
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\bin\Debug\Desafio1 v1.1.pdb
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1_v1._1.Properties.Resources.resources
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1_v1._1.Splash.resources
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1 v1.1.csproj.GenerateResource.cache
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1 v1.1.csproj.CoreCompileInputs.cache
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1 v1.1.exe
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1 v1.1.pdb
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1_v1._1.Login.resources
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1_v1._1.admin_MainProgram.resources
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1_v1._1.MainProgram.resources
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\bin\Debug\Creds
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\bin\Debug\Info
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1 v1.1.csproj.CopyComplete
+C:\Users\Nexter\source\repos\Desafio1 v1.1\Desafio1 v1.1\obj\Debug\Desafio1 v1.1.csprojAssemblyReference.cache

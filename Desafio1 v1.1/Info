@@ -1,0 +1,102 @@
+{
+	"Categoria1": [{
+		"Titulo": "Programas de Entretenimiento",
+		"Serie1": "Game of Thrones",
+		"DatosSerie1": [{
+			"TituloenEspañol": "Juego de Tronos",
+			"Creadopor": "David Benioff",
+			"Protagonistas": "Sean Bean|Nikolaj Coster-Waldau|Peter Dinklage|Emilia Clarke|Lena Headey|Iain Glen|Kit Harington|Sophie Turner|Maisie Williams|Isaac Hempstead-Wright|Natalie Dormer",
+			"PaisdeOrigen": "Estados Unidos",
+			"Temporadas": 8,
+			"Episodios": 73,
+			"Sinopsis": "La trama de Game of Thrones está basada en la serie de novelas Canción de hielo y fuego, y relata las vivencias de un grupo de personajes de distintas casas nobiliarias en el continente ficticio Poniente para tener el control del Trono de Hierro y gobernar los siete reinos que conforman el territorio"
+		}],
+		"Serie2": "Chernobyl",
+		"DatosSerie2": [{
+			"TituloenEspañol": "Chernóbil",
+			"Creadopor": "Craig Mazin",
+			"Protagonistas": "Jared Harris|Stellan Skarsgard|Emily Watson",
+			"PaisdeOrigen": "Estados Unidos|Reino Unido",
+			"Temporadas": 1,
+			"Episodios": 5,
+			"Sinopsis": "La serie gira en torno al desastre nuclear de Chernóbil de abril de 1986 y los esfuerzos de limpieza sin precedentes que siguieron. Cuenta con un reparto encabezado por Jared Harris, Stellan Skarsgård y Emily Watson"
+		}],
+		"Serie3": "The Marvelous Mrs. Maisel",
+		"DatosSerie3": [{
+			"TituloenEspañol": "La Maravillosa Señora Maisel",
+			"Creadopor": "Amy Sherman Palladino",
+			"Protagonistas": "Rachel Brosnahan|Michael Zegen|Alex Borstein|Tony Shalhoub|Marin Hinkle",
+			"PaisdeOrigen": "Estados Unidos",
+			"Temporadas": 3,
+			"Episodios": 26,
+			"Sinopsis": "La serie cuenta la historia de un ama de casa en Nueva York que descubre que tiene una habilidad especial para la comedia en vivo. El primer episodio se estrenó como parte de la temporada de pilotos de primavera de Amazon Studios el 17 de marzo de 2017, recibiendo la aclamación de la crítica"
+		}]
+	}],
+	"Categoria2": [{
+		"Titulo": "Libros",
+		"Libro1": "Harry Potter",
+		"DatosLibro1": [{
+			"Autor": "J.K Rowling",
+			"Genero": "Novela",
+			"Subgenero": "",
+			"#Paginas": "3407 (ENG)|3665 (ESP)",
+			"Protagonistas": "Harry Potter|Ron weasley|Hermione Granger|Ginny Weasley|Neville Longbottom|Albus Dumbledore",
+			"Antagonistas": "Lord Voldemort|Mortífagos",
+			"Argumento": "La historia comienza con la celebración del mundo mágico. Durante muchos años, había sido aterrorizado por el malvado mago Lord Voldemort. La noche del 31 de octubre, mató a Lily y James Potter. Sin embargo, cuando intenta matar a su hijo de 1 año, Harry, la maldición asesina Avada Kedavra se vuelve sobre sí mismo. El cuerpo de Voldemort resulta destruido, pero él sobrevive: no está muerto ni vivo. Por su parte, a Harry solo le queda una cicatriz con forma de rayo en la frente que es el único remanente físico de la maldición de Voldemort. Harry es el único sobreviviente de la maldición asesina, y a raíz de la misteriosa derrota de Voldemort, el mundo mágico empieza a llamarlo como «el niño que sobrevivió»"
+		}],
+		"Libro2": "Goosebumps",
+		"DatosLibro2": [{
+			"Autor": "Robert Lawrence Stine",
+			"Genero": "Ciencia ficción, literatura infantil y suspenso",
+			"Subgenero": "Suspenso, Terror, Juvenil",
+			"#Paginas": "",
+			"Protagonistas": "El protagonista principal de una historia de Pesadillas / Escalofríos, es a menudo situado en una ubicación remota o de alguna manera aislada en algunas situaciones",
+			"Antagonistas": "",
+			"Argumento": "La serie consta de un total de 60 libros para España, el último de los cuales (Sangre de monstruo IV) se publicó en 1999, mientras que en Hispanoamérica consta de 45 historias. El nombre se tradujo en España como Pesadillas y en Hispanoamérica como Escalofríos"
+		}],
+		"Libro3": "Perry Mason",
+		"DatosLibro3": [{
+			"Autor": "Erle Stanley Gardner",
+			"Genero": "Novela policiaca",
+			"Subgenero": "",
+			"#Paginas": "",
+			"Protagonistas": "Perry Mason",
+			"Antagonistas": "",
+			"Argumento": "El personaje era un abogado que llegó a aparecer en 80 novelas e historias cortas, la mayoría de las cuales versaban sobre la defensa de un cliente que había sido acusado de asesinato. En general, Perry Mason era capaz de demostrar la inocencia de su cliente mediante la averiguación de la culpabilidad del verdadero asesino, otro personaje de la historia."
+		}]
+	}],
+	"Categoria3": [{
+		"Titulo": "Lenguajes de Programacion",
+		"Lenguaje1": "Python",
+		"DatosLenguaje1": [{
+			"Desarrolladores": "Python Software Foundation",
+			"Extensiones": ".py, .pyc, .pyd, .pyo, .pyw, .pyz",
+			"Aparecioen": 1991,
+			"SistemaOperativo": "Multiplataforma",
+			"Paradigma": "Multiparadigma: orientado a objetos, imperativo, funcional, reflexivo",
+			"UltimaVersion": "3.8.3",
+			"Licencia": "Python Software Foundation License"
+		}],
+		"Lenguaje2": "Java",
+		"DatosLenguaje2": [{
+			"Desarrolladores": "James Gosling y Sun Microsystems",
+			"Extensiones": "java, class, jar, jad y jmod",
+			"Aparecioen": 1996,
+			"SistemaOperativo": "Multiplataforma",
+			"Paradigma": "Orientado a objetos, imperativo",
+			"UltimaVersion": "14.01",
+			"Licencia": "GNU GPL/Java Community Process"
+		}],
+		"Lenguaje3": "JavaScript",
+		"DatosLenguaje3": [{
+			"Desarrolladores": "",
+			"Extensiones": ".js",
+			"Aparecioen": 1995,
+			"SistemaOperativo": "",
+			"Paradigma": "Multiparadigma, programacion funcional, programacion basada en prototipos, imperativo, interpretado(scripting)",
+			"UltimaVersion": "ECMAScript2016",
+			"Licencia": "Python Software Foundation License"
+		}]
+	}]
+
+}
