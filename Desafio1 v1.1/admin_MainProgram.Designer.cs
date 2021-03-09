@@ -44,7 +44,14 @@ namespace Desafio1_v1._1
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.titleLabel = new System.Windows.Forms.Label();
+            this.datostxt1 = new System.Windows.Forms.TextBox();
+            this.datostxt2 = new System.Windows.Forms.TextBox();
+            this.datostxt3 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
@@ -65,6 +72,7 @@ namespace Desafio1_v1._1
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.datostxt1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -75,6 +83,7 @@ namespace Desafio1_v1._1
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.datostxt2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -85,6 +94,7 @@ namespace Desafio1_v1._1
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.datostxt3);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(792, 214);
@@ -111,8 +121,9 @@ namespace Desafio1_v1._1
             this.chart1.Location = new System.Drawing.Point(228, 18);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
             series1.Legend = "Legend1";
-            series1.Name = "Series1";
+            series1.Name = "Popularidad";
             this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(372, 188);
             this.chart1.TabIndex = 0;
@@ -122,10 +133,16 @@ namespace Desafio1_v1._1
             // 
             this.comboBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Programas de Entretenimiento",
+            "Libros",
+            "Lenguajes de Programacion"});
             this.comboBox1.Location = new System.Drawing.Point(324, 96);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(179, 21);
             this.comboBox1.TabIndex = 1;
+            this.comboBox1.Text = "(Seleccione una)";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -143,11 +160,11 @@ namespace Desafio1_v1._1
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Berlin Sans FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Firebrick;
-            this.label2.Location = new System.Drawing.Point(85, 9);
+            this.label2.Location = new System.Drawing.Point(168, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(650, 60);
+            this.label2.Size = new System.Drawing.Size(503, 60);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Bienvenido a Estadix {user}";
+            this.label2.Text = "Bienvenido a Estadix";
             // 
             // label3
             // 
@@ -170,11 +187,54 @@ namespace Desafio1_v1._1
             this.label4.Text = "Cerrar sesion";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // titleLabel
+            // 
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.Location = new System.Drawing.Point(368, 165);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(0, 23);
+            this.titleLabel.TabIndex = 11;
+            // 
+            // datostxt1
+            // 
+            this.datostxt1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.datostxt1.Location = new System.Drawing.Point(0, 0);
+            this.datostxt1.Multiline = true;
+            this.datostxt1.Name = "datostxt1";
+            this.datostxt1.Size = new System.Drawing.Size(792, 214);
+            this.datostxt1.TabIndex = 0;
+            // 
+            // datostxt2
+            // 
+            this.datostxt2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.datostxt2.Location = new System.Drawing.Point(0, 0);
+            this.datostxt2.Multiline = true;
+            this.datostxt2.Name = "datostxt2";
+            this.datostxt2.Size = new System.Drawing.Size(792, 214);
+            this.datostxt2.TabIndex = 0;
+            // 
+            // datostxt3
+            // 
+            this.datostxt3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.datostxt3.Location = new System.Drawing.Point(0, 0);
+            this.datostxt3.Multiline = true;
+            this.datostxt3.Name = "datostxt3";
+            this.datostxt3.Size = new System.Drawing.Size(792, 214);
+            this.datostxt3.TabIndex = 0;
+            // 
             // admin_MainProgram
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -186,6 +246,12 @@ namespace Desafio1_v1._1
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estadix Categories";
             this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
@@ -206,5 +272,9 @@ namespace Desafio1_v1._1
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label titleLabel;
+        private System.Windows.Forms.TextBox datostxt1;
+        private System.Windows.Forms.TextBox datostxt2;
+        private System.Windows.Forms.TextBox datostxt3;
     }
 }

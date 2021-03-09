@@ -38,8 +38,8 @@
 		"DatosLibro1": [{
 			"Autor": "J.K Rowling",
 			"Genero": "Novela",
-			"Subgenero": "",
-			"#Paginas": "3407 (ENG)|3665 (ESP)",
+			"Subgenero": "xx",
+			"Paginas": "3407 (ENG)|3665 (ESP)",
 			"Protagonistas": "Harry Potter|Ron weasley|Hermione Granger|Ginny Weasley|Neville Longbottom|Albus Dumbledore",
 			"Antagonistas": "Lord Voldemort|Mortífagos",
 			"Argumento": "La historia comienza con la celebración del mundo mágico. Durante muchos años, había sido aterrorizado por el malvado mago Lord Voldemort. La noche del 31 de octubre, mató a Lily y James Potter. Sin embargo, cuando intenta matar a su hijo de 1 año, Harry, la maldición asesina Avada Kedavra se vuelve sobre sí mismo. El cuerpo de Voldemort resulta destruido, pero él sobrevive: no está muerto ni vivo. Por su parte, a Harry solo le queda una cicatriz con forma de rayo en la frente que es el único remanente físico de la maldición de Voldemort. Harry es el único sobreviviente de la maldición asesina, y a raíz de la misteriosa derrota de Voldemort, el mundo mágico empieza a llamarlo como «el niño que sobrevivió»"
@@ -49,19 +49,19 @@
 			"Autor": "Robert Lawrence Stine",
 			"Genero": "Ciencia ficción, literatura infantil y suspenso",
 			"Subgenero": "Suspenso, Terror, Juvenil",
-			"#Paginas": "",
+			"Paginas": "xx",
 			"Protagonistas": "El protagonista principal de una historia de Pesadillas / Escalofríos, es a menudo situado en una ubicación remota o de alguna manera aislada en algunas situaciones",
-			"Antagonistas": "",
+			"Antagonistas": "xx",
 			"Argumento": "La serie consta de un total de 60 libros para España, el último de los cuales (Sangre de monstruo IV) se publicó en 1999, mientras que en Hispanoamérica consta de 45 historias. El nombre se tradujo en España como Pesadillas y en Hispanoamérica como Escalofríos"
 		}],
 		"Libro3": "Perry Mason",
 		"DatosLibro3": [{
 			"Autor": "Erle Stanley Gardner",
 			"Genero": "Novela policiaca",
-			"Subgenero": "",
-			"#Paginas": "",
+			"Subgenero": "xx",
+			"Paginas": "xx",
 			"Protagonistas": "Perry Mason",
-			"Antagonistas": "",
+			"Antagonistas": "xx",
 			"Argumento": "El personaje era un abogado que llegó a aparecer en 80 novelas e historias cortas, la mayoría de las cuales versaban sobre la defensa de un cliente que había sido acusado de asesinato. En general, Perry Mason era capaz de demostrar la inocencia de su cliente mediante la averiguación de la culpabilidad del verdadero asesino, otro personaje de la historia."
 		}]
 	}],
@@ -89,10 +89,10 @@
 		}],
 		"Lenguaje3": "JavaScript",
 		"DatosLenguaje3": [{
-			"Desarrolladores": "",
+			"Desarrolladores": "xx",
 			"Extensiones": ".js",
 			"Aparecioen": 1995,
-			"SistemaOperativo": "",
+			"SistemaOperativo": "xx",
 			"Paradigma": "Multiparadigma, programacion funcional, programacion basada en prototipos, imperativo, interpretado(scripting)",
 			"UltimaVersion": "ECMAScript2016",
 			"Licencia": "Python Software Foundation License"
